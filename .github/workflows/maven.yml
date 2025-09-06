@@ -4,6 +4,14 @@ on:
 schedule:
 -cron: 00 18 * * *
   push:
+ Check failure on line 6 in .github/workflows/maven.yml
+
+
+GitHub Actions
+/ .github/workflows/maven.yml
+Invalid workflow file
+
+You have an error in your yaml syntax on line 6
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
@@ -41,10 +49,3 @@ jobs:
 
     - name: Test Execution Status
     run: echo "Test Execution Completed"
-      
-
-      
-
-  
-
-    
